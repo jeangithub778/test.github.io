@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Drukkerij Deniz</title>
+</head>
+<body>
+    <header>
+	    <div class="top-header-one">
+            <img src="images/denizlogo.png" id= "logo">
+	    </div>
+	    <div class ="top-header">
+		    <span>(0)</span><br>
+		    <img src="images/shopping-cart.jpg" id="shoppingcart">
+	    </div>
+	    <div class="top-header">
+			<p>
+				<span id = "telNummer">tel:010 485 84 88</span> | 
+				<a href="pages/email_pagina.html">Stuur ons een mail</a> |
+				<a href="pages/inlog_pagina.html">Inloggen</a> | 
+				<a href="pages/inlog_pagina.html">Registreren</a> | 
+			</p>				
+	    </div>
+    </header>
+
+	<nav>
+		<ul class="tab">
+			<li>
+				<a class="tablinks" href="javascript:void(0)" id="defaultOpen" onclick="openCity(event, 'Aanbiedingen')">
+				   </span id = "aanbiedingenMenu">Aanbiedingen</span>
+				</a>
+			</li>
+			<li>
+				<a class="tablinks" href="javascript:void(0)" onclick="openCity(event, 'Paris')">Producten</a>
+			</li>
+			<li>
+				<a class="tablinks" href="javascript:void(0)" onclick="openCity(event, 'Tokyo')">Bestanden aanleveren</a>
+			</li>
+			<li>
+				<a class="tablinks" href="javascript:void(0)" onclick="openCity(event, 'Tokyo')">klantenservice</a>
+			</li>
+			<li>
+				<a class="tablinks" href="javascript:void(0)" onclick="openCity(event, 'Contact')">Contact</a>
+			</li>
+			<li>
+				<input id ="searchfield" type ="zoekfunctie">
+				<button id = "searchbutton">Zoeken</button>
+			</li>
+		</ul>
+
+		<div class="tabcontent" id="Aanbiedingen">
+			<span class="topright" onclick="this.parentElement.style.display='none'">x</span>
+			 <div class="aanbiedingen">
+			   <ul>
+		          <li> Visitekaartjes</li>
+		    	  <li> Briefpapier</li>
+		    	  <li> Envelopen</li>
+		    	  <li> Doordruksels</li>
+		    	  <li> Notitieblokken</li>
+		    	  <li> Presentatiemappen</li>
+		    	  <li> Bureau onderleggers</li>
+		    	  <li> Stempels Rechthoek</li>
+		    	  <li> Starterspakket</li>
+		       </ul>
+			 </div>
+		</div>
+
+		<div class="tabcontent" id="Contact">
+			<span class="topright" onclick="this.parentElement.style.display='none'">x</span>				
+            <div class="floatleft">
+				<h3>Ons nieuwe Bezoekadres</h3>
+				<p>
+					Drukkerij Deniz B.V.
+				    Graafstroomstraat 6 </br>
+				    3044 AR Rotterdam
+				</p>
+			</div>
+            <div class="floatleft">
+				<h3>Telefoonnummer</h3>
+				<p>+31 (0)10 485 84 88</p>
+				<h3>E-mail adressen</h3>
+				<p>info@drukkerijdeniz.nl</p>
+            </div>
+            <div class="floatleft">
+				<h3>Openingstijden</h3>
+				<p>
+				   Maandag t/m vrijdag van 09:00 tot 18:00 uur</br> 
+				   Zaterdag van 12:00 tot 15:00 uur
+			    </p>
+			</div>
+            <div class="floatleft">
+				<h3>Overige gegevens</h3>
+				<p>KvK-nummer: 24372156
+				Btw-identificatienummer: NL81.43.44628B01</br>
+				IBAN-nummer: NL30INGB.066.85.88.470</p>
+            </div>
+		</div>
+
+		<div class="tabcontent" id="Paris">
+			<span class="topright" onclick="this.parentElement.style.display='none'">x</span>
+			<div class="containerdiv1">
+				<div class="floatleft">
+				 	<ul>
+						<li><h3><a href="">Aanbiedingen</a></h3></li>
+						<li><a href=""> flyers (ongevouwen)</a></li>
+						<li><a href=""> folders (grote oplagen)</a></li>
+				    </ul>
+					</div>
+					<div class="floatleft">
+					   <ul>
+				          <li><h3>Huisstijl</h3></li>
+				          <li> Visitekaartjes</li>
+				    	  <li> Briefpapier</li>
+				    	  <li> Envelopen</li>
+				    	  <li> Doordruksels</li>
+				    	  <li> Notitieblokken</li>
+				    	  <li> Presentatiemappen</li>
+				    	  <li> Bureau onderleggers</li>
+				    	  <li> Stempels Rechthoek</li>
+				    	  <li> Starterspakket</li>
+				       </ul>
+					</div>
+					<div class="floatleft">
+					    <ul>
+				          <li><h3>Promotie</h3></li>
+				          <li> Flyers(ongevouwen)</li>
+				    	  <li> Folders(gevouwen)</li>
+				    	  <li> Stikkers</li>
+				    	  <li> Posters </li>
+				    	  <li> Afsprakenkaarten</li>
+				    	  <li> Entreekaarten</li>
+				    	  <li> Brochures geniet</li>
+				    	  <li> Brochures gelijmd</li>
+				        </ul>
+					</div>
+					<div class="floatleft">
+						<ul>
+				          <li><h3>Horeca</h3></li>
+				          <li> Verfrissingdoekjes</li>
+				    	  <li> Menukaarten</li>
+				    	  <li> Placemats</li>
+				        </ul>
+					</div>
+					<br class="clearfloat" />
+				</div>
+
+				<div class="containerdiv2">
+					<div class="floatleft">
+				        <ul>
+				          <li><h3>Verpakking</h3></li>
+				          <li> Kartonnen tassen</li>
+				    	  <li> Kartonnen bekers</li>
+				        </ul>
+					</div>
+					<div class="floatleft">
+				        <ul>
+				          <li><h3>Relatie-<br>geschenken</h3></li>
+				          <li> Klokken</li>
+				    	  <li> Paraplus</li>
+				    	  <li> Premiums</li>
+				    	  <li> Pennen</li>
+				    	  <li> USB sticks</li>
+				    	  <li> Polsbandjes</li>
+				        </ul>
+				    </div>
+					<div class="floatleft">
+					    <ul>
+				          <li><h3>Presentatie</h3></li>
+				          <li> Deurhangers</li>
+				    	  <li> Stoepborden</li>
+				    	  <li> Stoepbord Posters</li>
+				    	  <li> Roll-up Banners</li>
+				    	  <li> X-Banners</li>
+				    	  <li> L-Banners</li>
+				        </ul>
+					</div>
+					<div class="floatleft">
+						<ul>
+				          <li><h3>Buitenreclame</h3></li>
+				          <li> Makelaarsborden</li>
+				    	  <li> Hekwerkbanners</li>
+				    	  <li> Steigerframe banners</li>
+				    	  <li> Beachflags</li>
+				    	  <li> Dropflags</li>
+				    	  <li> Kioskvlaggen</li>
+				    	  <li> Raamvlaggen</li>
+				    	  <li> Gevelvlaggen</li>
+				    	  <li> Maskvlaggen</li>
+				        </ul>
+					</div>
+				    <div class="floatleft">
+					    <ul>
+				          <li><h3>Uitnodigingen</h3></li>
+				          <li> Trouwkaarten</li>
+				    	  <li> Geboortekaartjes</li>
+				        </ul>
+					</div>
+					<br class="clearfloat" />
+				</div>
+		    </div>
+			<div class="tabcontent" id="Tokyo">
+				<span class="topright" onclick="this.parentElement.style.display='none'">x</span>
+				<h3>Tokyo</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+		</div>
+	</nav>
+
+    <section>
+         <div class="homepageProductThumbnails"> 
+          <a href="pages/product-detail.html">
+     		<img src="images/envelopen.jpg" class="homePageProducts">
+     		<h4>envelopen</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+
+     	<div class="homepageProductThumbnails">
+     	  <a href="pages/product-detail.html">
+     		<img src="images/beachflags.jpg" class="homePageProducts">
+     		<h4>Beachflags</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+        <div class="homepageProductThumbnails">
+          <a href="pages/product-detail.html">
+     		<img src="images/trouwkaarten.jpg" class="homePageProducts">
+     		<h4>Trouwkaarten</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+
+     	<div class="homepageProductThumbnails">
+     	  <a href="pages/product-detail.html">
+     		<img src="images/placemats.jpg" class="homePageProducts">
+     		<h4>Placemats</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+     	<div class="homepageProductThumbnails">
+     	  <a href="pages/product-detail.html">
+     		<img src="images/verfrissingsdoekjes.jpg" class="homePageProducts">
+     		<h4>Verfrissingsdoekjes</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+     	<div class="homepageProductThumbnails">
+     	  <a href="pages/product-detail.html">
+     		<img src="images/notitieblokken.jpg" class="homePageProducts">
+     		<h4>Notitieblokken</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+        <div class="homepageProductThumbnails">
+          <a href="pages/product-detail.html">
+     		<img src="images/briefpapier.jpg" class="homePageProducts">
+     		<h4>Brief papier</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+     	<div class="homepageProductThumbnails">
+     	  <a href="pages/product-detail.html">
+     		<img src="images/foldersGevouwen.jpg" class="homePageProducts">
+     		<h4>Gevouwen folders</h4>
+     		<button class="callToActionButton">product bekijken</button>
+     	  </a>
+     	</div>
+    </section>
+
+    <div id="clear"></div>
+
+	<footer>
+		<div class="floatleft">
+          <ul>
+            <li><h3>adresgegevens</li>
+            <li>jan van koperstraten 33 </li>
+            <li>3333 KR </li>
+            <li>Rotterdam</li>
+            <li>hello world</li>
+            <li>hello world</li>
+          </ul>
+	    </div>
+		<div class="floatleft">
+          <ul>
+            <li><h3>adresgegevens</li>
+            <li>jan van koperstraten 33 </li>
+            <li>3333 KR </li>
+            <li>Rotterdam</li>
+            <li>hello world</li>
+            <li>hello world</li>
+          </ul>
+	    </div>
+	    <div class="floatleft">
+          <ul>
+            <li><h3>adresgegevens</li>
+            <li>jan van koperstraten 33 </li>
+            <li>3333 KR </li>
+            <li>Rotterdam</li>
+            <li>hello world</li>
+            <li>hello world</li>
+          </ul>
+	    </div>
+	    <div class="floatleft">
+          <ul>
+            <li><h3>adresgegevens</li>
+            <li>jan van koperstraten 33 </li>
+            <li>3333 KR </li>
+            <li>Rotterdam</li>
+            <li>hello world</li>
+            <li>hello world</li>
+          </ul>
+	    </div>
+	   <div id="clear"></div>
+	   <p> © 2017, Drukkerij Deniz | Algemene voorwaarden | KvK: 24 37 21 56 | BTW: NL81.43.44.628.B01 </p>
+	</footer>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
